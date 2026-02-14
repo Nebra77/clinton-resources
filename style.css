@@ -1,0 +1,26 @@
+html{
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}   
+header{
+    background-color: #063970;
+    padding: 0.1px 2px 10px 10px;
+    color: aliceblue;
+    border-radius: 4px;
+}
+header li{
+    display:inline; 
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+    list-style: none;
+
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    text-align:end;
+}
