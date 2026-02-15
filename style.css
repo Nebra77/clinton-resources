@@ -1,14 +1,19 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html{
-    background-color:white;
+    background-color:rgb(239, 244, 255);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 
 }   
 header{
     background-color: #063970;
-    padding: 0.1px 2px 10px 10px;
+    padding: 30px;
     color: aliceblue;
-    border-radius: 4px;
+    text-align: center;
 }
 header li{
     display:inline; 
@@ -18,12 +23,28 @@ header li{
 
 }
 header ul{
-    margin: 0;
+    margin: 30px;
+    margin-bottom: 10px;
     padding: 0;
 }
 footer{
-    
+    background-color: #063970;
+    color: white;
+    padding: 1rem;
+    margin-top: 0.5rem;
 }
 header a{
     color: white;
+}
+#welcome{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    width: 90%;
+    text-align: center;
+    margin: 2vh auto;
+}
+body{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
