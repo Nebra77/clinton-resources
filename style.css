@@ -36,7 +36,7 @@ footer{
 header a{
     color: white;
 }
-#welcome{
+.paragraph{
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
     width: 90%;

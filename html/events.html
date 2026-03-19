@@ -7,7 +7,10 @@
     <link rel="icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../events.css">
+    <script src='https://cdn.jsdelivr.net/npm/rrule@2.6.4/dist/es5/rrule.min.js'></script>
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/rrule@6.1.20/index.global.min.js'></script>
+
 
 </head>
 <body>
@@ -26,6 +29,13 @@
         <div id='calendar'></div>
         <section id="list">
             <h2>List of Events</h2>
+            <label>Type of event:</label>
+        <select id="selector">
+            <option value="blank"></option>
+            <option value="oneTime">One Time Events</option>
+            <option value="repeat">Repeated Events</option>
+        </select>
+        <button type="submit">Submit</button>
         </section>
     </main>
     <footer>
@@ -33,5 +43,4 @@
     </footer>
     <script src="../eventCalander.js"></script>
 </body>
-
 </html>
