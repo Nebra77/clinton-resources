@@ -4,8 +4,7 @@ function addings(){
         adding();
     }
     else if(filler.textContent.trim()==="Send a message"){
-        (document.getElementById("s")).remove();
-        (document.getElementById("q")).remove();
+        filler.replaceChildren();
         adding();
     }
 }
@@ -20,6 +19,7 @@ function adding(){
     eventName.placeholder = "Event Name";
     eventName.id = "q"
     eventDate.placeholder = "Date of Event"
+    eventDate.id = "o"
     document.getElementById("fill").append(title);
     document.getElementById("fill").append(eventName);
     document.getElementById("fill").append(br);
@@ -32,8 +32,7 @@ function contactings(){
         contacting()
     }
     else if(filler.textContent.trim()!==""){
-        (document.getElementById("s")).remove();
-        (document.getElementById("q")).remove();
+        filler.replaceChildren();
         contacting();
     }
 }
