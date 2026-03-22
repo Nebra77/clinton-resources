@@ -78,3 +78,7 @@ button:active{
 input{
     align-items: left;
 }
+
+.thingy{
+    background-color: #ff0000;
+}
