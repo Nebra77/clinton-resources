@@ -2,7 +2,9 @@ document.querySelector("#fill").addEventListener("submit", async (e) => {
   e.preventDefault();
   const formData = {
     eventName: e.target.eventName.value,
-    dateOf: e.target.dateOf.value
+    dateOf: e.target.dateOf.value,
+    oversee: e.target.oversee.value,
+    desc: e.target.desc.value,
   };
   try {
     const res = await fetch("http://localhost:3000/submit", {

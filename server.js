@@ -7,17 +7,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// 🔥 Load your Firebase key
 var serviceAccount = require("./firebaseServiceKey.json");
 
-// 🔥 Initialize Firebase
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
 
 const db = admin.firestore();
 
-// 🚀 SAVE TO FIREBASE INSTEAD OF ARRAY
 app.post("/submit", async (req, res) => {
   try {
     const docRef = await db.collection("submissions").add(req.body);
@@ -29,7 +26,6 @@ app.post("/submit", async (req, res) => {
   }
 });
 
-// 🚀 GET DATA FROM FIREBASE
 app.get("/submissions", async (req, res) => {
   try {
     const snapshot = await db.collection("submissions").get();
