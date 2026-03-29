@@ -82,3 +82,9 @@ input{
 .thingy{
     background-color: #ff0000;
 }
+#adding{
+    display: none;
+}
+#messageForm{
+    display: none;
+}

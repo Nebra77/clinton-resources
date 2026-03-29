@@ -24,7 +24,20 @@
             <button id="contact" onclick="contactings()">Send a direct message to the developers</button>
             <button id="add" onclick="addings()">Add a resourse to the page</button>
         </div>
-        <form id="fill">
+        <form id="adding">
+            <h2>Add a Recource</h2>
+            <input placeholder="Resource/Event Name" id="eventName" name="eventName"><br>
+            <input placeholder="Date of Event (Na if none)" id="dateOf" name="dateOf"><br>
+            <input placeholder="Organization name" id="oversee" name="oversee"><br>
+            <textarea placeholder="Add a short description" id="desc" name="desc"></textarea><br>
+            <input placeholder="Email or phone (Na if anomynous)" id="contactAdd" name="contactAdd"><br>
+            <button type="submit" id="subAdd">Submit</button>
+        </form>
+        <form id="messageForm">
+            <h2>Send Direct Message</h2>
+            <textarea placeholder="Message" id="mess" name="mess"></textarea><br>
+            <input placeholder="Email or phone (Na if anomynous)" id="contactMess" name="contactMess"><br>
+            <button type="submit" id="subAdd">Submit</button>
 
         </form>
     </main>
