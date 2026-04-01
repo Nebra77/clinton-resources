@@ -16,7 +16,9 @@
 <body>
     <header>
         <h1>Clinton Recource Center</h1>
-        <ul>
+    </header>
+    <div class="options">
+            <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="events.html">Events/Calander</a></li>
             <li><a href="volunteer.html">Recources</a></li>
@@ -24,7 +26,7 @@
             <li><a href="contact.html">Contact Us/Add Resources</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
-    </header>
+        </div>
     <main>
         <div id='calendar'></div>
         <section id="list">
@@ -35,12 +37,16 @@
             <option value="oneTime">One Time Events</option>
             <option value="repeat">Repeated Events</option>
         </select>
-        <button type="submit">Submit</button>
+        <button onclick= "running()">Submit</button>
+        <div id="listEvents">
+            <h2 id="bigTitle"></h2>
+        </div>
         </section>
     </main>
     <footer>
         <p>TSA Webmasters Project</p>
     </footer>
     <script src="../eventCalander.js"></script>
+    <script src="../events.js"></script>
 </body>
 </html>

@@ -1,9 +1,19 @@
-#list{
-    display: inline-block;
-    width: 30rem;
+main{
+    display: flex;
 }
 .fc{
     color: #063970;
     width: 30rem;
-    display:inline-block;
+    font-size: 20px;
+}
+.fc-event {
+    font-size: 12px;
+}
+.hello{
+    color: rgb(255, 0, 0);
+}
+ #list{
+    text-align:center;  
+    max-width: 50%;
+
 }
