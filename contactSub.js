@@ -10,7 +10,7 @@ document.querySelector("#adding").addEventListener("submit", async (e) => {
 
     };
   try {
-    const res = await fetch("https://https://clinton-resources.onrender.com/submit", {
+    const res = await fetch("https://clinton-resources.onrender.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -34,7 +34,7 @@ document.querySelector("#messageForm").addEventListener("submit", async (e) => {
 
     };
   try {
-    const res = await fetch("http://localhost:3000/submit", {
+    const res = await fetch("https://clinton-resources.onrender.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
