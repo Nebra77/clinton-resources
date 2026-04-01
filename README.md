@@ -1,1 +1,1 @@
-README for clinton-resources... prepare yourself.
+# Clinton Town/Township Recource Page

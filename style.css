@@ -108,3 +108,8 @@ margin: 0.5rem;
 display: inline-block;
 }
 
+.location{
+    max-width: 45%;
+    display: inline-block;
+    border: 5px solid #063970;
+}
