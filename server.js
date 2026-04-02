@@ -7,11 +7,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
+
 admin.initializeApp({
   credential: admin.credential.cert(JSON.parse(process.env.FIREBASE_KEY))
 });
 
 const db = admin.firestore();
+
+
+app.get("/", (req, res) => {
+  res.send("Server is live");
+});
 
 app.post("/submit", async (req, res) => {
   try {
