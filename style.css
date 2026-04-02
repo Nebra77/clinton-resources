@@ -113,3 +113,14 @@ display: inline-block;
     display: inline-block;
     border: 5px solid #063970;
 }
+.recource{
+    max-width: 45%;
+    border: 5px solid #063970;
+    border-radius: 2%;
+    margin: 0.5rem;
+}
+#resourceDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
