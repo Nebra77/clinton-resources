@@ -34,10 +34,13 @@ body {
     padding: 10px 0;
     margin: 0;
     list-style: none;
+    align-items: center;
 }
 .options li{
     display: inline-block;
     padding: 0 1rem;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 .options li a{
     color: white;
@@ -88,6 +91,7 @@ input{
     width: 90%;
     text-align: center;
     margin: 2rem auto;
+    border: 4px solid #063970;
 }
 .thingy{
     background-color: #ff0000;
@@ -133,5 +137,16 @@ display: inline-block;
     width: 80%;
     text-align: center;
     margin: 1vh auto;
-    border: 4px solid #063970;
+    border: 3px solid #063970;
+}
+input, textarea{
+    width: 20%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #000000;
+}
+:placeholder-shown{
+    color: #000000;
 }
